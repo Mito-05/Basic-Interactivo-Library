@@ -154,7 +154,7 @@ public class Main {
         //Vamos a coger los articulos para el ejercicio 2
         System.out.println("\n"+"Vamos a utilizar la cantidad de articulos del ejercicio 2");
         //Declarar total de articulos
-        int totalart= canbook+canalbum+canfilm+canfilm;
+        double totalart= canbook+canalbum+canfilm+cangame;
         System.out.println("Total Articulos: "+totalart);
         //Calcularemos el porcentaje de cada articulo con regla de 3 basica
         double porcbook= (canbook*100)/totalart;
